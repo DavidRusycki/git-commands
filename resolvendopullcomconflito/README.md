@@ -1,0 +1,3 @@
+# Resolvendo pull com conflito
+
+> Quando dois programadores mecher no mesmo arquivo, ao realizar o commit e push será avisado que não se tem no local coisas que existem no remoto. Sendo assim um git pull será necessário. Porém ao realizar isso podem existir conflitos, se este for o caso o arquivo pode ser aberto no VSCODE por exemplo onde deve ser deixado como deve ser. Então deve-se aplicar um `git add .` e um `git commit -m "resolvendo o conflito"` seguido de um `git push`. E Assim o problema será resolvido.
